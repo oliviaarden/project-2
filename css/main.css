@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  text-align: center;
+  background-color: red;
+  padding-top: 1em;
+  position: relative;
+}
+
+ h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 2.3rem;
+  bottom: 40.4rem;
+  left: 9.6rem;
+  position: absolute;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: .7rem;
+  bottom: 40.4rem;
+  left: 9.3rem;
+  position: absolute;
+}
+
+.medallion {
+  width: 17%;
+  margin-top: 0em;
+  padding-bottom: 0.5em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav a {
+  display: block;
+  padding: 0.5em 0.75em 0.75em;
+  margin: 0px;
+  background-color: #222222;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #a93f35;
+}
+
+nav li {
+  font-weight: normal;
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-family: 'Merriweather';
+  line-height: 1;
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.banner {
+  width: 100%;
+}
