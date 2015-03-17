@@ -9,36 +9,54 @@ html {
 header {
   text-align: center;
   background-color: red;
-  padding-top: 1em;
-  position: relative;
+  padding: 0em;
+  margin: 0;
 }
 
  h1 {
   color: white;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
-  font-weight: 400;
   font-size: 2.3rem;
-  bottom: 40.4rem;
-  left: 9.6rem;
+  z-index: 1000;
+  padding: 2em 2em 2em 2em;
   position: absolute;
+  text-shadow: #222 2px 4px 3px;
 }
 
 h2 {
   color: white;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
-  font-weight: 700;
-  font-size: .7rem;
-  bottom: 40.4rem;
-  left: 9.3rem;
+  font-size: 1em;
+  top: 1rem;
   position: absolute;
+  z-index: 1000;
+  text-shadow: #222 2px 4px 3px;
+}
+
+h3 {
+	text-shadow: #222 2px 2px 3px;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	font-style: italic;
+	bottom: 280px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .medallion {
   width: 17%;
-  margin-top: 0em;
-  padding-bottom: 0.5em;
+  margin-top: 2em;
+  padding-bottom: 0em;
 }
 
 body {
@@ -84,4 +102,17 @@ nav li {
 
 .banner {
   width: 100%;
+}
+.
+
+.right {
+	clear: left;
+}
+
+.left {
+	float: left;
+}
+
+p {
+	margin-left: 20px;
 }
