@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 *, *::before, *::after {
@@ -22,24 +23,25 @@ header {
   padding: 2em 2em 2em 2em;
   position: absolute;
   text-shadow: #222 2px 4px 3px;
+  top: -85px;
+  left: 0px;
+  width: 100%;
+}
+small{
+  font-size: 0.5rem;
+  display: block;
 }
 
-h2 {
-  color: white;
-  text-align: center;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 1em;
-  top: 1rem;
-  position: absolute;
-  z-index: 1000;
-  text-shadow: #222 2px 4px 3px;
+.medallion {
+  width: 80px;
+  margin: 10px;
+  padding: 0;
 }
 
 h3 {
 	text-shadow: #222 2px 2px 3px;
 	color: white;
 	position: absolute;
-	bottom: 0px;
 	text-align: center;
 	width: 100%;
 	font-size: 1.5em;
@@ -51,12 +53,9 @@ h3 {
 h4 {
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
-}
-
-.medallion {
-  width: 17%;
-  margin-top: 2em;
-  padding-bottom: 0em;
+  margin: 0;
+  font-size: 1.5em;
+  padding-top: 0.5em;
 }
 
 body {
@@ -82,18 +81,19 @@ nav a {
   background-color: #222222;
   color: #fff;
   text-decoration: none;
+  width: 100%;
 }
 
-nav a:hover {
-  background-color: #a93f35;
+a:hover {
+  display: inline-block;
+  background-color: #e4c22a;
 }
 
 nav li {
   font-weight: normal;
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-style: normal;
-  font-family: 'Merriweather';
   line-height: 1;
   float: left;
   width: 50%;
@@ -102,17 +102,63 @@ nav li {
 
 .banner {
   width: 100%;
+  padding-bottom: 0.7em;
+  display: block;
 }
-.
+
+.bannertext {
+  position: relative;
+}
+
+.dragon {
+  background-color: #e4c22a;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.goat {
+  background-color: black;
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.rooster {
+  background-color: #bc0017;
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.ox {
+  background-color: #e4c22a;
+  font-size: 0.8em;
+  text-align: center;
+}
 
 .right {
-	clear: left;
+	clear: right;
+  width: 50%;
 }
 
 .left {
-	float: left;
+	float: right;
+  width: 50%;
 }
 
 p {
 	margin-left: 20px;
+  font-size: 0.8em;
+  margin: 0;
+  padding-bottom: 1.5em;
 }
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 1.5em 0em 1.5em 0em;
+}
+ .footer {
+   color: white;
+   text-decoration: underline;
+ }
