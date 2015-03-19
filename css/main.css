@@ -20,7 +20,7 @@ header {
   font-family: 'Noto Sans', sans-serif;
   font-size: 2.3rem;
   z-index: 1000;
-  padding: 2em 2em 2em 2em;
+  padding: 2em 2em 0em 2em;
   position: absolute;
   text-shadow: #222 2px 4px 3px;
   top: -85px;
@@ -38,7 +38,7 @@ small{
   padding: 0;
 }
 
-h3 {
+h2 {
 	text-shadow: #222 2px 2px 3px;
 	color: white;
 	position: absolute;
@@ -46,11 +46,11 @@ h3 {
 	width: 100%;
 	font-size: 1.5em;
 	font-style: italic;
-	bottom: 3px;
+	bottom: 25px;
 	font-family: 'Noto Sans', sans-serif;
 }
 
-h4 {
+h3 {
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   margin: 0;
@@ -76,7 +76,7 @@ nav ol {
 
 nav a {
   display: block;
-  padding: 0.5em 0.75em 0.75em;
+  padding: 0.7em 0.7em 0.7em 0.7em;
   margin: 0px;
   background-color: #222222;
   color: #fff;
@@ -151,6 +151,7 @@ p {
   font-size: 0.8em;
   margin: 0;
   padding-bottom: 1.5em;
+  padding-left: 0.5em;
 }
 
 footer {
